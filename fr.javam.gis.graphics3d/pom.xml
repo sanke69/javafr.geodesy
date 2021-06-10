@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.pechberti.steve</groupId>
+		<artifactId>MyMavenConfig</artifactId>
+		<version>dev-fr</version>
+	</parent>
+
+	<artifactId>fr.javam.gis.graphics3d</artifactId>
+	<version>${javafr.gis.version}</version>
+	<packaging>jar</packaging>
+
+	<name>${project.artifactId}</name>
+	<description>Geographic Information System Visual Interface (Universe Mode)</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.pechberti.steve</groupId>
+			<artifactId>fr.java.sdk</artifactId>
+			<version>${javafr.sdk.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.pechberti.steve</groupId>
+			<artifactId>fr.javam.gis.graphics</artifactId>
+			<version>${javafr.gis.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.pechberti.steve</groupId>
+			<artifactId>fr.javam.threedjinns</artifactId>
+			<version>${javafr.threedjinns.version}</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>com.pechberti.steve</groupId>
+			<artifactId>fr.javam.threedjinns.graphics</artifactId>
+			<version>${javafr.threedjinns.version}</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>com.pechberti.steve</groupId>
+			<artifactId>fr.javam.threedjinns.opengl</artifactId>
+			<version>${javafr.threedjinns.version}</version>
+			<type>jar</type>
+		</dependency>
+	</dependencies>
+
+</project>

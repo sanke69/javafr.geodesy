@@ -1,6 +1,7 @@
 module javafr.geodetic {
 	requires transitive javafr;
-	requires javafr.sdk;
+
+	exports fr.utils.geodesic.adapters to javafr.gis.sdk, javafr.gms.sdk;
 
 	exports fr.geodesic;
 	exports fr.geodesic.api;
@@ -12,6 +13,6 @@ module javafr.geodetic {
 
 	exports fr.geodesic.utils;
 	exports fr.geodesic.utils.converters;
-	exports fr.geodesic.utils.mercator;
+	exports fr.geodesic.api.mercator;
 
 }

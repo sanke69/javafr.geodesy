@@ -49,8 +49,6 @@ public enum Ellipsoid {
 	private double first_excentricity;		// Première excentricité de l'ellipsoïde de référence
 	private double second_excentricity;		// Hauteur au dessus de l'ellipsoïde (en mètre)
 
-	
-
 	private Ellipsoid(Double _a, Double _b, Double _f) {
 		big_axe          	= _a != null ? _a : Utils.getHalfMajorAxis(_b, _f);
 		small_axe        	= _b != null ? _b : Utils.getHalfMinorAxis(_a, _f);
@@ -71,30 +69,28 @@ public enum Ellipsoid {
 	public double getFlattening()			{ return flattening; }
 	public double getFirstExcentricity()	{ return flattening; }
 	public double getSecondExcentricity()	{ return flattening; }
-	
-	
-	
-	public double getEquatorialRadius() { return big_axe; }
-	public double equatorialRadius() 	{ return big_axe; }
 
-	public double getPolarRadius() 		{ return small_axe; }
-	public double polarRadius() 		{ return small_axe; }
+	public double getEquatorialRadius() 	{ return big_axe; }
+	public double equatorialRadius() 		{ return big_axe; }
 
-	public double getFlatteringFactor()	{ return flattening; }
-	public double flattening()			{ return (equatorialRadius()-polarRadius())/equatorialRadius(); /*return flat_factor;*/ }
+	public double getPolarRadius() 			{ return small_axe; }
+	public double polarRadius() 			{ return small_axe; }
 
-	public double invFlattening()		{ return 1.0 / flattening(); }
+	public double getFlatteringFactor()		{ return flattening; }
+	public double flattening()				{ return (equatorialRadius()-polarRadius())/equatorialRadius(); /*return flat_factor;*/ }
 
-	public double getExcentricity() 	{ return Math.sqrt(1 - Math.pow(polarRadius() / equatorialRadius(), 2)) /*excentricity*/; }
-	public double excentricity() 		{ return Math.sqrt(1 - Math.pow(polarRadius() / equatorialRadius(), 2)); }
+	public double invFlattening()			{ return 1.0 / flattening(); }
 
-	public double firstExcentricity() 	{ return first_excentricity; }
-	public double secondExcentricity() 	{ return second_excentricity; }
+	public double getExcentricity() 		{ return Math.sqrt(1 - Math.pow(polarRadius() / equatorialRadius(), 2)) /*excentricity*/; }
+	public double excentricity() 			{ return Math.sqrt(1 - Math.pow(polarRadius() / equatorialRadius(), 2)); }
 
+	public double firstExcentricity() 		{ return first_excentricity; }
+	public double secondExcentricity() 		{ return second_excentricity; }
 
-	public double meanRadius() 			{ return Math.pow(equatorialRadius() * polarRadius(), 1 / 2.0); }
+	public double meanRadius() 				{ return Math.pow(equatorialRadius() * polarRadius(), 0.5); }
 
-	public double getEllipsoidHeight() 	{ return second_excentricity; }
+	public double getEllipsoidHeight() 		{ return second_excentricity; }
+
 	static private double computeHalfSmallAxe(double _hba, double _flatf) {
 		// {1/2 Small Axe} = {1/2 Big Axe} * (1 - {flat factor}) 
 		return _hba * (1.0 - _flatf);

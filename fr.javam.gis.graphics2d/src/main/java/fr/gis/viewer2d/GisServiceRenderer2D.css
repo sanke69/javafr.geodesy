@@ -1,0 +1,67 @@
+/* comment */
+/* JavaFX properties
+ *      [ NAME....................]   [EXEMPLES...................................]
+ *      -fx-font                      16px "Serif"
+ *      -fx-font-size                 16pt
+ *      -fx-font-family               "Courier New"
+ *
+ *      -fx-text-fill                 rgb(49, 89, 23)
+ *
+ *      -fx-base
+ *
+ *      -fx-background-radius         20
+ *      -fx-background-color          #DFB951
+ *      -fx-background-insets         0,1,1
+ *      -fx-background                rgb(225, 228, 203)
+ *
+ *      -fx-border-color              rgb(49, 89, 23)
+ *      -fx-border-radius             5
+ *
+ *      -fx-padding                   3 6 6 6
+ *
+ *      -fx-effect                    dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 )
+ *
+ * Special GraphicsContext
+ *      -fx-stroke-color              yellow
+ *      -fx-stroke-width              1 | 1px
+ *      -fx-fill-color                yellow
+ *
+ */
+
+@variables {
+	default-color: test;
+}
+
+map-node {
+	-fx-stroke-color			: green;
+	-fx-stroke-width			: 2;
+}
+map-segment {
+	-fx-stroke-color			: yellow;
+	-fx-stroke-width			: 2;
+	-fx-fill-color				: yellow;
+}
+map-area {
+	-fx-stroke-color			: yellow;
+	-fx-stroke-width			: 2;
+	-fx-fill-color				: yellow;
+	-fx-effect                  : dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+map-road-element {
+	-fx-stroke-color			: yellow;
+	-fx-stroke-width			: 2;
+	-fx-fill-color				: yellow;
+}
+
+map-building-element {
+	-fx-stroke-color			: yellow;
+	-fx-stroke-width			: 2;
+	-fx-fill-color				: yellowgreen;
+}
+
+map-traficsign-element {
+	-fx-stroke-color			: blue;
+	-fx-stroke-width			: 2;
+}
+

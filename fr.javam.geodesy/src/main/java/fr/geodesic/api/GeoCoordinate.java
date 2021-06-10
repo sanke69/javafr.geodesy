@@ -7,7 +7,7 @@ import fr.java.math.geometry.plane.Point2D;
 import fr.java.math.topology.Coordinate;
 import fr.java.math.topology.CoordinateSystem;
 import fr.java.patterns.tileable.TileCoordinate;
-import fr.java.sdk.math.Points;
+import fr.utils.geodesic.Points;
 
 /**
  * Available and defined for Earth (Planet 0)

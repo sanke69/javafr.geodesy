@@ -2,7 +2,7 @@ package fr.gms.navigation.gnss.protocols.nmea.trames.v3;
 
 import java.util.List;
 
-import fr.java.patterns.measurable.Measurement;
+import fr.java.measure.Measurement;
 
 public interface XDRTrame {
 

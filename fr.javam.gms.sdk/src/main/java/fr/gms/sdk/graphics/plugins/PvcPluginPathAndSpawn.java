@@ -6,7 +6,7 @@ import fr.gms.sdk.graphics.drawers.PathDrawer;
 import fr.java.draw.tools.Colors;
 import fr.java.math.geometry.plane.Point2D;
 import fr.java.math.topology.Coordinate;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 import fr.java.utils.jMath;
 import fr.javafx.scene.control.viewport.planar.PlaneViewportControl;
 import fr.javafx.scene.control.viewport.planar.implementations.canvas.CanvasControl;

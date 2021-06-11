@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import fr.java.maths.interpolation.FunctionInterpolator;
+import fr.java.math.interpolation.FunctionInterpolator;
 import fr.java.maths.interpolation.functions.LagrangeInterpolator;
 import fr.java.maths.interpolation.functions.LinearInterpolator;
 import fr.java.maths.interpolation.functions.splines.cubic.CubicSpline;

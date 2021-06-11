@@ -13,9 +13,9 @@ import fr.java.draw.Drawer;
 import fr.java.draw.tools.Color;
 import fr.java.draw.tools.Colors;
 import fr.java.lang.collections.RingList;
+import fr.java.math.algebra.vector.generic.Vector3D;
 import fr.java.math.geometry.Dimension;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.math.geometry.space.Vector3D;
 import fr.java.maths.Angles;
 
 public class GisDynamics2D implements GisObjectRenderer2D<Gis.Dynamics> {

@@ -5,8 +5,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import fr.gis.api.GisTileProvider;
-import fr.java.patterns.tileable.TileCoordinate;
-import fr.java.patterns.tileable.TileSystem;
+import fr.java.patterns.tiled.TileCoordinate;
+import fr.java.patterns.tiled.TileSystem;
 
 public abstract class BaseMapLayerInfo implements TileSystem {
 

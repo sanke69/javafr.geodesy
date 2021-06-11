@@ -1,35 +1,22 @@
-/** ************************************************************************ **\
- * Copyright (c) 2007-?XYZ Steve PECHBERTI                                    *
- *                                                                            *
- * @author <a href='mailto:steve.pechberti@gmail.com'> Steve PECHBERTI </a>   *
- *                                                                            *
- * @section license License                                                   *
- *    [EN] This program is free software:                                     *
- *         you can redistribute it and/or modify it under the terms of        * 
- *         the GNU General Public License as published by                     *
- *         the Free Software Foundation, either version 3 of the License, or  *
- *         (at your option) any later version.                                *
- *         You should have received a copy of the GNU General Public License  *
- *         along with this program. If not, see                               *
- *            <http://www.gnu.org/licenses/gpl.html>                          *
- *    [FR] Ce programme est un logiciel libre ; vous pouvez le redistribuer   * 
- *         ou le modifier suivant les termes de la GNU General Public License *
- *         telle que publiée par la Free Software Foundation ;                *
- *         soit la version 3 de la licence, soit (à votre gré) toute version  *
- *         ultérieure.                                                        *
- *         Vous devez avoir reçu une copie de la GNU General Public License   *
- *         en même temps que ce programme ; si ce n'est pas le cas, consultez *
- *            <http://www.gnu.org/licenses/gpl.html>                          *
- *                                                                            *
- * @section disclaimer Disclaimer                                             *
- *    [EN] This program is distributed in the hope that it will be useful,    *
- *         but WITHOUT ANY WARRANTY; without even the implied warranty of     *
- *         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.               *
- *    [FR] Ce programme est distribué dans l'espoir qu'il sera utile,         *
- *         mais SANS AUCUNE GARANTIE, sans même la garantie implicite de      *
- *         VALEUR MARCHANDE ou FONCTIONNALITE POUR UN BUT PARTICULIER.        *
- *                                                                            *
-\** ************************************************************************ **/
+/**
+ * Copyright (C) 2007-?XYZ Steve PECHBERTI <steve.pechberti@laposte.net>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+ * 
+ * See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+ *
+**/
 package fr.utils.geodesic.adapters;
 
 import java.text.NumberFormat;
@@ -37,9 +24,9 @@ import java.text.NumberFormat;
 import fr.java.lang.exceptions.NotYetImplementedException;
 import fr.java.math.algebra.NumberVector;
 import fr.java.math.algebra.vector.DoubleVector;
+import fr.java.math.algebra.vector.generic.Vector3D;
+import fr.java.math.algebra.vector.generic.Vector4D;
 import fr.java.math.geometry.Point;
-import fr.java.math.geometry.space.Vector3D;
-import fr.java.math.geometry.space.Vector4D;
 
 public class AdapterVector4D extends AdapterVectorDouble.Editable implements DoubleVector.Editable, Vector4D.Editable {
 	private static final long serialVersionUID = 1L;

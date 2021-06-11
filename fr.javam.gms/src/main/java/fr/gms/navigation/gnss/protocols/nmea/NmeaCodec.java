@@ -4,12 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.protocols.nmea.Nmea.Trame;
 import fr.gms.navigation.gnss.protocols.nmea.Nmea.TrameType;
 import fr.gms.navigation.gnss.protocols.nmea.trames.NmeaTrameReader;
 import fr.gms.navigation.gnss.protocols.nmea.trames.v3.readers._Readers;
+import fr.java.measure.Unit;
 
 public class NmeaCodec {
 	static Map<TrameType, Function<NmeaTrameReader, Trame>> registeredTrame = new HashMap<TrameType, Function<NmeaTrameReader, Trame>>();

@@ -5,7 +5,7 @@ import fr.gms.planner.agent.TraceAgent;
 import fr.gms.planner.agent.ant.AntAgentOriented;
 import fr.java.draw.tools.Colors;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 import fr.javafx.JavaFX;
 import fr.javafx.scene.canvas.ResizableCanvas;
 import fr.javafx.stage.StageExt;

@@ -30,8 +30,8 @@ import fr.gis.sdk.objects.GisObject;
 import fr.java.lang.properties.ID;
 import fr.java.math.geometry.BoundingBox;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
 import fr.java.maths.geometry.plane.shapes.SimpleRectangle2D;
+import fr.java.maths.geometry.types.Points;
 
 public class GisArea extends GisObject implements Gis.Area {
 	protected List<GeoCoordinate> 	geometry;

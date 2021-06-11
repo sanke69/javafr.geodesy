@@ -13,7 +13,7 @@ import fr.gis.graphics.sdk.control.AbstractGisLayerController;
 import fr.gis.viewer2d.renderer.GisRendererFactory2D;
 import fr.java.lang.properties.ID;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 import fr.javafx.scene.control.viewport.planar.utils.info.PlaneViewportInfoControl;
 import fr.javafx.scene.control.viewport.planar.utils.minimap.PlaneViewportMinimapControl;
 import fr.javafx.scene.control.viewport.utils.statusbar.ViewportStatusBar;

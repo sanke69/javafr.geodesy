@@ -1,12 +1,11 @@
 package fr.gms.navigation.gnss.protocols.nmea.trames.v3.readers;
 
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.properties.constants.DataStatus;
 import fr.gms.navigation.gnss.protocols.nmea.Nmea;
 import fr.gms.navigation.gnss.protocols.nmea.NmeaCodec;
 import fr.gms.navigation.gnss.protocols.nmea.trames.NmeaTrameReader;
 import fr.gms.navigation.gnss.protocols.nmea.trames.v3.MWVTrame;
+import fr.java.measure.Unit;
 
 class MWVTrameReader extends NmeaTrameReader implements MWVTrame {
 

@@ -11,7 +11,7 @@ import fr.java.draw.Drawer;
 import fr.java.draw.tools.Colors;
 import fr.java.math.geometry.Dimension;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.BoundingBoxes;
+import fr.java.maths.geometry.types.BoundingBoxes;
 
 public class GisNode2D implements GisObjectRenderer2D<Gis.Node> {
 

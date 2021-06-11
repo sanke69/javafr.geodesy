@@ -3,8 +3,8 @@ package fr.gms.planner.utils.hmi;
 import java.util.stream.IntStream;
 
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
-import fr.java.maths.interpolation.FunctionInterpolator;
+import fr.java.math.interpolation.FunctionInterpolator;
+import fr.java.maths.geometry.types.Points;
 import fr.java.maths.interpolation.functions.splines.cubic.CubicSplineMonotone;
 import fr.javafx.JavaFX;
 import fr.javafx.io.screen.Screens;

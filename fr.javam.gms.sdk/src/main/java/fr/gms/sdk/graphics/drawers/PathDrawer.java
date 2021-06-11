@@ -6,8 +6,8 @@ import fr.drawer.fx.DrawerFx;
 import fr.gms.navigation.waypath.Segment;
 import fr.java.draw.tools.Color;
 import fr.java.draw.tools.Colors;
+import fr.java.math.algebra.vector.generic.Vector2D;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.math.geometry.plane.Vector2D;
 import javafx.scene.canvas.Canvas;
 
 public class PathDrawer extends DrawerFx {

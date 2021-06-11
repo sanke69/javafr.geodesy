@@ -13,8 +13,8 @@ import fr.java.jvm.properties.id.IDs;
 import fr.java.lang.exceptions.WhatTheFuckException;
 import fr.java.math.algebra.NumberVector.Norm;
 import fr.java.math.geometry.plane.Point2D;
+import fr.java.math.interpolation.CoordinateInterpolator;
 import fr.java.maths.algebra.Vectors;
-import fr.java.maths.interpolation.CoordinateInterpolator;
 
 public class RailGuidedPathPlannerInterpolated implements PathPlanner {
 	Gis.Path		reference;

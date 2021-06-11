@@ -1,6 +1,6 @@
 package fr.gis.mercator;
 
-import fr.java.patterns.tileable.TileSystem;
+import fr.java.patterns.tiled.TileSystem;
 
 public class MercatorTileSystem implements TileSystem {
 

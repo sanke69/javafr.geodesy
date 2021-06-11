@@ -4,7 +4,7 @@ import fr.geodesic.api.GeoCoordinate;
 import fr.geodesic.api.mercator.Mercator;
 import fr.java.math.geometry.BoundingBox;
 import fr.java.math.geometry.Dimension;
-import fr.java.patterns.tileable.TileSystem;
+import fr.java.patterns.tiled.TileSystem;
 import fr.java.sdk.patterns.tileable.TileViewportAdapter;
 
 public class MercatorViewport extends TileViewportAdapter<BoundingBox.TwoDims, GeoCoordinate.Spheric2D> implements Mercator.Viewport {

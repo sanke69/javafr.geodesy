@@ -13,7 +13,7 @@ import fr.gms.planner.agent.TraceAgent;
 import fr.gms.planner.agent.ant.AntAgent;
 import fr.java.jvm.properties.id.IDs;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 
 public class RailGuidedPathPlannerWithTraceAgent implements PathPlanner {
 	int 		nbWayPoints;

@@ -11,7 +11,7 @@ import fr.gis.viewer2d.GisServiceRenderer2D.AvailableCanvas;
 import fr.java.draw.Drawer;
 import fr.java.math.geometry.Dimension;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 
 public interface GisObjectRenderer2D<GIS_OBJECT extends Gis.Object> extends GisObjectRenderer<GisServiceRenderer2D> {
 

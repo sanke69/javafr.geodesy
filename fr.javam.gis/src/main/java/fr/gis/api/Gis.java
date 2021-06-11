@@ -8,9 +8,9 @@ import fr.geodesic.api.GeoDynamics;
 import fr.geodesic.api.referential.Datum;
 import fr.java.lang.collections.RingList;
 import fr.java.lang.properties.Timestamp;
+import fr.java.math.algebra.vector.generic.Vector3D;
 import fr.java.math.geometry.BoundingBox;
-import fr.java.math.geometry.space.Vector3D;
-import fr.java.patterns.identifiable.Identifiable;
+import fr.java.patterns.capabilities.Identifiable;
 
 public interface Gis {
 

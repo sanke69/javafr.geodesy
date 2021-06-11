@@ -4,12 +4,11 @@ import fr.gis.api.GisService;
 import fr.gis.graphics.control3d.GeodesicController;
 import fr.gis.viewer3d.shapes.GxEarthMap3D;
 import fr.java.math.geometry.space.shapes.Ellipsoid3D;
-import fr.java.maths.Points;
 import fr.java.maths.algebra.Vectors;
-import fr.java.maths.geometry.Geometry;
 import fr.java.maths.geometry.Space;
 import fr.java.maths.geometry.space.camera.Projections3D;
 import fr.java.maths.geometry.space.types.SimpleDimension3D;
+import fr.java.maths.geometry.types.Points;
 import fr.javafx.controller.space.GxCamera3DController;
 import fr.javafx.controller.space.behaviors.FreeFlightController;
 import fr.javafx.rendering.GxViewportControl;
@@ -81,7 +80,7 @@ public class EarthRenderer3D extends GxViewportControl {
 		if(scene3D == null) {
 			scene3D = new Scene3D();
 			scene3D.setCamera(getCamera3D());
-			scene3D.addRenderable(new GxFrame3D(Geometry.Space.worldFrame));
+			scene3D.addRenderable(new GxFrame3D(Space.WorldFrame));
 		}
 		return scene3D;
 	}

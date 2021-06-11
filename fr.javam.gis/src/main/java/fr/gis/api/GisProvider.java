@@ -5,8 +5,8 @@ import java.util.Optional;
 import java.util.Set;
 
 import fr.java.lang.properties.ID;
-import fr.java.patterns.identifiable.Identifiable;
-import fr.java.patterns.identifiable.Nameable;
+import fr.java.patterns.capabilities.Identifiable;
+import fr.java.patterns.capabilities.Nameable;
 
 public interface GisProvider extends Identifiable, Nameable {
 

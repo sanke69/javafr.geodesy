@@ -4,7 +4,7 @@ import fr.geodesic.api.GeoCoordinate;
 import fr.gis.api.Gis;
 import fr.java.lang.properties.ID;
 import fr.java.math.topology.Coordinate;
-import fr.java.patterns.tileable.TileCoordinate;
+import fr.java.patterns.tiled.TileCoordinate;
 
 public interface RoadCoordinate extends GeoCoordinate {
 

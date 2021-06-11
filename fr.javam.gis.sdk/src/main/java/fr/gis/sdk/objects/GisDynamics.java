@@ -6,7 +6,7 @@ import fr.gis.api.Gis;
 import fr.java.lang.collections.RingList;
 import fr.java.lang.properties.ID;
 import fr.java.lang.properties.Timestamp;
-import fr.java.math.geometry.space.Vector3D;
+import fr.java.math.algebra.vector.generic.Vector3D;
 
 public class GisDynamics extends GisObject implements Gis.Dynamics {
 	final Gis.User	nature;

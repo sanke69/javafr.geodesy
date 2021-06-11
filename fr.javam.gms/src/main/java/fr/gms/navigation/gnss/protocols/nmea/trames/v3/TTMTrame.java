@@ -1,10 +1,9 @@
 package fr.gms.navigation.gnss.protocols.nmea.trames.v3;
 
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.properties.constants.AcquisitionType;
 import fr.gms.navigation.gnss.properties.constants.TargetStatus;
 import fr.gms.navigation.gnss.protocols.nmea.trames.std.TimeData;
+import fr.java.measure.Unit;
 
 public interface TTMTrame extends TimeData {
 

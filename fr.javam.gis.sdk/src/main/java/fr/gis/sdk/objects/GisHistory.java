@@ -8,7 +8,7 @@ import fr.java.lang.collections.RingList;
 import fr.java.lang.properties.ID;
 import fr.java.lang.properties.Timestamp;
 import fr.java.math.algebra.NumberVector.Norm;
-import fr.java.math.geometry.space.Vector3D;
+import fr.java.math.algebra.vector.generic.Vector3D;
 import fr.java.maths.algebra.Vectors;
 import fr.java.sdk.patterns.timeable.Timestamps;
 

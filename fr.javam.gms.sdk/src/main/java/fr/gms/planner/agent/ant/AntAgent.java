@@ -3,7 +3,7 @@ package fr.gms.planner.agent.ant;
 import fr.gms.navigation.waypath.Segment;
 import fr.gms.planner.agent.TraceAgent;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 
 public class AntAgent extends TraceAgent {
 	public static final int MIN_PATH_SIZE = 1;

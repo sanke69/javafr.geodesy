@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import fr.gms.navigation.waypath.Segment;
 import fr.java.math.geometry.plane.Point2D;
 import fr.java.maths.Angles;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Points;
 
 public abstract class TraceAgent {
 

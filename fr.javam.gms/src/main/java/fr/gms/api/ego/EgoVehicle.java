@@ -4,7 +4,7 @@ import fr.geodesic.api.GeoCoordinate;
 import fr.gis.api.Gis;
 import fr.gms.api.sensor.EHorizon;
 import fr.java.math.topology.Coordinate;
-import fr.java.maths.Coordinates;
+import fr.java.maths.geometry.types.Coordinates;
 
 public interface EgoVehicle extends Gis.Dynamics {
 

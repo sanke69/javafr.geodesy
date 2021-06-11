@@ -1,7 +1,7 @@
 package fr.gms.navigation.waypath;
 
+import fr.java.math.algebra.vector.generic.Vector2D;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.math.geometry.plane.Vector2D;
 import fr.java.maths.Angles;
 import fr.java.maths.algebra.Vectors;
 

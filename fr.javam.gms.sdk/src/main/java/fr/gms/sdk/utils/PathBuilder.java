@@ -8,8 +8,8 @@ import fr.gms.navigation.waypath.WayPath;
 import fr.gms.sdk.navigation.waypath.WayPathDouble;
 import fr.gms.sdk.navigation.waypath.WayPathSimple;
 import fr.gms.sdk.navigation.waypath.WayPaths;
+import fr.java.math.algebra.vector.generic.Vector2D;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.math.geometry.plane.Vector2D;
 import fr.java.utils.jMath;
 
 public class PathBuilder { double epsilon = 1e-6;

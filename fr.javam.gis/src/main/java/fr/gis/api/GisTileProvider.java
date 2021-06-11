@@ -4,8 +4,8 @@ import java.awt.image.BufferedImage;
 import java.net.URL;
 import java.nio.file.Path;
 
-import fr.java.patterns.tileable.TileCoordinate;
-import fr.java.patterns.tileable.TileProvider;
+import fr.java.patterns.tiled.TileCoordinate;
+import fr.java.patterns.tiled.TileProvider;
 
 public interface GisTileProvider extends TileProvider.Async<BufferedImage> {
 

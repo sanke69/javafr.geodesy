@@ -26,8 +26,8 @@ import fr.java.math.geometry.Dimension;
 import fr.java.math.geometry.Dimension.TwoDims;
 import fr.java.math.geometry.plane.Point2D;
 import fr.java.maths.Angles;
-import fr.java.maths.Dimensions;
-import fr.java.maths.Points;
+import fr.java.maths.geometry.types.Dimensions;
+import fr.java.maths.geometry.types.Points;
 
 public class EHorizonObjectRenderer2D implements GisObjectRenderer2D<EHorizon> {
 

@@ -9,9 +9,9 @@ import fr.geodesic.utils.GeoCoordinates;
 import fr.java.math.geometry.BoundingBox;
 import fr.java.math.topology.Coordinate;
 import fr.java.maths.Angles;
-import fr.java.maths.BoundingBoxes;
-import fr.java.maths.Coordinates;
-import fr.java.patterns.tileable.TileSystem;
+import fr.java.maths.geometry.types.BoundingBoxes;
+import fr.java.maths.geometry.types.Coordinates;
+import fr.java.patterns.tiled.TileSystem;
 
 public class GudermannProjector implements Mercator.Projector {
 	private static final Function<Double, Double> gudermann = lat -> 2.0 * Math.atan(Math.exp(lat)) - Math.PI / 2.0;

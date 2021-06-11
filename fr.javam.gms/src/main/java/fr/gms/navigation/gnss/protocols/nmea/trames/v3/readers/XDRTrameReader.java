@@ -3,14 +3,13 @@ package fr.gms.navigation.gnss.protocols.nmea.trames.v3.readers;
 import java.util.ArrayList;
 import java.util.List;
 
-import fr.java.patterns.measurable.Measure;
-import fr.java.patterns.measurable.Measurement;
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.protocols.nmea.Nmea;
 import fr.gms.navigation.gnss.protocols.nmea.NmeaCodec;
 import fr.gms.navigation.gnss.protocols.nmea.trames.NmeaTrameReader;
 import fr.gms.navigation.gnss.protocols.nmea.trames.v3.XDRTrame;
+import fr.java.measure.Measure;
+import fr.java.measure.Measurement;
+import fr.java.measure.Unit;
 
 class XDRTrameReader extends NmeaTrameReader implements XDRTrame {
 

@@ -6,8 +6,8 @@ import java.util.Map;
 
 import fr.java.lang.exceptions.IllegalCastException;
 import fr.java.lang.properties.ID;
-import fr.java.patterns.identifiable.Identifiable;
-import fr.java.patterns.identifiable.Nameable;
+import fr.java.patterns.capabilities.Identifiable;
+import fr.java.patterns.capabilities.Nameable;
 
 public interface GisLayer extends Identifiable, Nameable {
 	public static final Comparator<? super GisLayer> comparator = (i, j) -> i.getName().compareToIgnoreCase(j.getName());

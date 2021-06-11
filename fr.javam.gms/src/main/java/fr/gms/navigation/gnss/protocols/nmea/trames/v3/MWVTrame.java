@@ -1,8 +1,7 @@
 package fr.gms.navigation.gnss.protocols.nmea.trames.v3;
 
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.properties.constants.DataStatus;
+import fr.java.measure.Unit;
 
 public interface MWVTrame {
 

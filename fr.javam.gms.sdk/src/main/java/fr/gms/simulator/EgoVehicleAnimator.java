@@ -11,10 +11,10 @@ import fr.gis.sdk.objects.GisHistory;
 import fr.gms.api.ego.EgoVehicle;
 import fr.java.lang.enums.State;
 import fr.java.lang.properties.ID;
-import fr.java.patterns.stateable.StateListener;
 import fr.java.player.Player;
 import fr.java.player.PlayerListener;
 import fr.java.sdk.player.players.ThreadedPlayer;
+import fr.java.state.StateListener;
 import fr.javafx.scene.control.player.PlayerControl;
 import fr.javafx.stage.StageExt;
 

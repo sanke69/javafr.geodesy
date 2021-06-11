@@ -1,7 +1,5 @@
 package fr.gms.navigation.gnss.protocols.nmea.trames.v3.readers;
 
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.properties.constants.GpsFixQuality;
 import fr.gms.navigation.gnss.properties.values.Position;
 import fr.gms.navigation.gnss.properties.values.TimeX;
@@ -10,6 +8,7 @@ import fr.gms.navigation.gnss.protocols.nmea.Nmea;
 import fr.gms.navigation.gnss.protocols.nmea.NmeaCodec;
 import fr.gms.navigation.gnss.protocols.nmea.trames.NmeaTrameReader;
 import fr.gms.navigation.gnss.protocols.nmea.trames.v3.GGATrame;
+import fr.java.measure.Unit;
 
 class GGATrameReader extends NmeaTrameReader implements GGATrame {
 

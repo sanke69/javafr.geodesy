@@ -4,7 +4,7 @@ import fr.gms.planner.agent.TraceAgent;
 import fr.gms.planner.agent.ant.AntAgentOriented;
 import fr.gms.sdk.graphics.plugins.PvcPluginPathAndSpawn;
 import fr.java.math.geometry.plane.Point2D;
-import fr.java.maths.BoundingBoxes;
+import fr.java.maths.geometry.types.BoundingBoxes;
 import fr.javafx.JavaFX;
 import fr.javafx.scene.control.viewport.planar.implementations.canvas.CanvasControl;
 import fr.javafx.stage.StageExt;

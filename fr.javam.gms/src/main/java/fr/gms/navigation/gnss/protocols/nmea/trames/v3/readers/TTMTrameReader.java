@@ -1,7 +1,5 @@
 package fr.gms.navigation.gnss.protocols.nmea.trames.v3.readers;
 
-import fr.java.patterns.measurable.Unit;
-
 import fr.gms.navigation.gnss.properties.constants.AcquisitionType;
 import fr.gms.navigation.gnss.properties.constants.TargetStatus;
 import fr.gms.navigation.gnss.properties.values.TimeX;
@@ -9,6 +7,7 @@ import fr.gms.navigation.gnss.protocols.nmea.Nmea;
 import fr.gms.navigation.gnss.protocols.nmea.NmeaCodec;
 import fr.gms.navigation.gnss.protocols.nmea.trames.NmeaTrameReader;
 import fr.gms.navigation.gnss.protocols.nmea.trames.v3.TTMTrame;
+import fr.java.measure.Unit;
 
 class TTMTrameReader extends NmeaTrameReader implements TTMTrame {
 

@@ -10,7 +10,7 @@ import fr.gis.api.GisProvider;
 import fr.gis.sdk.SimpleGisProvider;
 import fr.gis.sdk.layers.base.BaseMapLayer;
 import fr.gis.sdk.layers.base.BaseMapLayerInfo;
-import fr.java.patterns.tileable.TileCoordinate;
+import fr.java.patterns.tiled.TileCoordinate;
 import fr.java.utils.ServerConnectionChecker;
 import fr.java.utils.Strings;
 

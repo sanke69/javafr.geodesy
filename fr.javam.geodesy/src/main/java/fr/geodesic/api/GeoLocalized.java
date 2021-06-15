@@ -17,11 +17,8 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  *
 **/
-package fr.geodesic;
+package fr.geodesic.api;
 
-import fr.geodesic.api.GeoCoordinate;
-
-@Deprecated
 public interface GeoLocalized {
 
 	public GeoCoordinate getPosition();

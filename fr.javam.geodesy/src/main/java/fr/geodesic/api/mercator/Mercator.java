@@ -24,8 +24,8 @@ import java.util.function.Function;
 import fr.geodesic.api.GeoCoordinate;
 import fr.java.math.geometry.BoundingBox;
 import fr.java.math.topology.Coordinate;
+import fr.java.maths.geometry.types.BoundingBoxes;
 import fr.java.patterns.tiled.TileViewport;
-import fr.utils.geodesic.BoundingBoxes;
 
 public interface Mercator {
 	public static final BoundingBox.TwoDims	GeoSphere = BoundingBoxes.fromBounds(-180.0, -85.051129, 180.0, 85.051129);

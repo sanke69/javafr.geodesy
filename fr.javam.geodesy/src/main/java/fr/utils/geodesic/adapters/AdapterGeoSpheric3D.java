@@ -24,7 +24,7 @@ import java.text.DecimalFormat;
 import fr.geodesic.api.GeoCoordinate;
 import fr.geodesic.api.referential.Datum;
 import fr.geodesic.utils.GeoCoordinates;
-import fr.utils.geodesic.Angles;
+import fr.java.maths.Angles;
 
 public class AdapterGeoSpheric3D extends AdapterGeoSpheric2D implements GeoCoordinate.Spheric3D.Editable {
 	double altitude;

@@ -20,6 +20,7 @@
 package fr.geodesic;
 
 import fr.geodesic.api.GeoCoordinate;
+import fr.geodesic.api.GeoLocalized;
 import fr.geodesic.utils.GeoCoordinates;
 
 @Deprecated

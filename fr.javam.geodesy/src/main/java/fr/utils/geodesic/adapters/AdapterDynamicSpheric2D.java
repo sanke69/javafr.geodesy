@@ -26,7 +26,7 @@ import fr.geodesic.api.GeoDynamics;
 import fr.geodesic.api.referential.Datum;
 import fr.java.lang.properties.Timestamp;
 import fr.java.math.algebra.vector.generic.Vector3D;
-import fr.utils.geodesic.Angles;
+import fr.java.maths.Angles;
 
 public class AdapterDynamicSpheric2D extends AdapterGeoSpheric2D implements GeoDynamics.Spheric2D.Editable {
 		Timestamp timestamp;

@@ -32,10 +32,10 @@ import fr.java.math.algebra.vector.generic.Vector2D;
 import fr.java.math.algebra.vector.generic.Vector3D;
 import fr.java.math.geometry.plane.Point2D;
 import fr.java.math.geometry.space.Point3D;
-import fr.utils.geodesic.Angles;
-import fr.utils.geodesic.Points;
+import fr.java.maths.Angles;
+import fr.java.maths.algebra.Vectors;
+import fr.java.maths.geometry.types.Points;
 import fr.utils.geodesic.Timestamps;
-import fr.utils.geodesic.Vectors;
 import fr.utils.geodesic.adapters.AdapterDynamicCartesian2D;
 import fr.utils.geodesic.adapters.AdapterDynamicCartesian3D;
 import fr.utils.geodesic.adapters.AdapterDynamicSpheric2D;
@@ -48,7 +48,6 @@ import fr.utils.geodesic.adapters.AdapterGeoSpheric2D;
 import fr.utils.geodesic.adapters.AdapterGeoSpheric3D;
 import fr.utils.geodesic.adapters.AdapterGeoTiled2D;
 import fr.utils.geodesic.adapters.AdapterGeoTiled3D;
-import fr.utils.geodesic.adapters.AdapterVector3D;
 
 public class GeoCoordinates {
 	private final static GeoCoordinate.Converter converterUTM       = new GeoConverterUTM();
@@ -59,7 +58,7 @@ public class GeoCoordinates {
 		return newWGS84(Double.NaN, Double.NaN, Double.NaN);
 	}
 	public static GeoCoordinate.Spheric3D.Editable		newWGS84(final double _lg, final double _lt) {
-		return newWGS84(_lg, _lt, 0.0);
+		return newWGS84(_lg, _lt, 0d);
 	}
 	public static GeoCoordinate.Spheric3D.Editable		newWGS84(final double _lg, final double _lt, final double _alt) {
 		return newGeoSpheric3D(_lg, _lt, _alt);
@@ -477,7 +476,7 @@ public class GeoCoordinates {
 		double dt = _newTime.delta(_oldTime);// / 1000.0;
 		double a  = (ds / dt) * 3600;
 
-		return new AdapterVector3D(a, 0.0, 0.0);
+		return Vectors.of(a, 0.0, 0.0);
 	}
 
 	public static GeoCoordinate 						plusUTM(GeoCoordinate _p, double _dx, double _dy) {

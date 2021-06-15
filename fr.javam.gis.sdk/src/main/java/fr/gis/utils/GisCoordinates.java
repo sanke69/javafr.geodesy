@@ -1,7 +1,5 @@
 package fr.gis.utils;
 
-import java.text.DecimalFormat;
-
 import fr.geodesic.api.GeoCoordinate;
 import fr.geodesic.utils.GeoCoordinates;
 import fr.gis.api.Gis;

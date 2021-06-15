@@ -22,6 +22,11 @@
 			<artifactId>fr.java.api</artifactId>
 			<version>${javafr.api.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.pechberti.steve</groupId>
+			<artifactId>fr.java.maths</artifactId>
+			<version>${javafr.api.version}</version>
+		</dependency>
 	</dependencies>
 
 </project>

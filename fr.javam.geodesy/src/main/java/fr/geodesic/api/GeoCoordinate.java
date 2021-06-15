@@ -25,8 +25,8 @@ import fr.java.lang.exceptions.InvalidArgumentException;
 import fr.java.math.geometry.plane.Point2D;
 import fr.java.math.topology.Coordinate;
 import fr.java.math.topology.CoordinateSystem;
+import fr.java.maths.geometry.types.Points;
 import fr.java.patterns.tiled.TileCoordinate;
-import fr.utils.geodesic.Points;
 
 /**
  * Available and defined for Earth (Planet 0)

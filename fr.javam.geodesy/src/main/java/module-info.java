@@ -32,6 +32,7 @@
 \** ************************************************************************ **/
 module javafr.geodetic {
 	requires transitive javafr;
+	requires javafr.maths;
 
 	exports fr.utils.geodesic.adapters to javafr.gis.sdk, javafr.gms.sdk;
 

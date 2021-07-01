@@ -4,6 +4,9 @@ import java.util.Collection;
 import java.util.EnumSet;
 import java.util.function.Function;
 
+import fr.drawer.designs.CompassDesignAdapter;
+import fr.drawer.designs.GaugeDesignAdapter;
+import fr.drawer.designs.RadarDesignAdapter;
 import fr.geodesic.api.GeoCoordinate;
 import fr.geodesic.api.GeoCoordinate.Spheric2D;
 import fr.geodesic.api.GeoDynamics;
@@ -30,9 +33,6 @@ import fr.java.math.geometry.plane.Point2D;
 import fr.java.maths.Angles;
 import fr.java.maths.geometry.types.Dimensions;
 import fr.java.maths.geometry.types.Points;
-import fr.java.sdk.draw.design.CompassDesignAdapter;
-import fr.java.sdk.draw.design.GaugeDesignAdapter;
-import fr.java.sdk.draw.design.RadarDesignAdapter;
 
 public class EgoObjectRenderer2D implements GisObjectRenderer2D<EgoVehicle> {
 	protected GisBuilding2D        buildingRenderer   = new GisBuilding2D();

@@ -89,8 +89,8 @@ public class GisHistory extends GisObject implements Gis.Dynamics {
 			double   heading      = !Double.isNaN(_heading) ? _heading : GeoCoordinates.computeHeading(prevP, _pos);
 			Vector3D velocity     = _vel     != null        ? _vel     : GeoCoordinates.computeVelocity(prevT, prevP, T, _pos);
 			Vector3D acceleration = _acc     != null        ? _acc     : GeoCoordinates.computeAcceleration(prevT, prevP, prevV, T, _pos, velocity);
-	
-			if(velocity.norm(Norm.Euclidian) < 3 && getHistory().size() > 2)
+
+			if(velocity.norm(Norm.Euclidian) < 1e-3 && getHistory().size() > 2)
 				heading = prevP.getHeading();
 	
 			history.insert(GeoCoordinates.newDynamics(_pos, T, heading, velocity, acceleration));

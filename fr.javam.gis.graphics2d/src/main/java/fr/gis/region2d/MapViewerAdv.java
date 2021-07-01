@@ -52,18 +52,18 @@ public class MapViewerAdv extends MapViewer {
 	BooleanProperty				actionActivated, debugActivated;
 
 	public MapViewerAdv() {
-		this(null, new GisRendererFactory2D(), new GisControllerFactory());
+		this(null, null, null);
 	}
 	public MapViewerAdv(GisService.Registrable _service) {
-		this(_service, new GisRendererFactory2D(), new GisControllerFactory());
+		this(_service, null, null);
 	}
 	public MapViewerAdv(GisRendererFactory2D _renderFactory, GisControllerFactory _controlFactory) {
 		this(null, _renderFactory, _controlFactory);
 	}
 	public MapViewerAdv(GisService.Registrable _service, GisRendererFactory2D _renderFactory, GisControllerFactory _controlFactory) {
-		super(_service, _renderFactory);
+		super(_service, _renderFactory == null ? _renderFactory : new GisRendererFactory2D());
 
-		controlFactory = _controlFactory;
+		controlFactory = _controlFactory == null ? _controlFactory : new GisControllerFactory();
 
 		actionActivated = new SimpleBooleanProperty(true);
 		debugActivated  = new SimpleBooleanProperty(true);
